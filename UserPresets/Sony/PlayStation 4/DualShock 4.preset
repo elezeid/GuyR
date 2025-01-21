@@ -5,7 +5,7 @@
     <Control type="ScriptComboBox" id="cmbIR" value="33.0"/>
     <Control type="ScriptAudioWaveform" id="AudioWaveform1" value="0.0" data="{PROJECT_FOLDER}DualShock 4 (SoundFontGuy).wav"
              rangeStart="0" rangeEnd="300"/>
-    <Control type="ScriptSlider" id="knbWet" value="-16.89999961853027"/>
+    <Control type="ScriptSlider" id="knbWet" value="-9.999999046325684"/>
     <Control type="ScriptSlider" id="knbDry" value="-100.0"/>
     <Control type="ScriptSlider" id="knbPreDelay" value="0.0"/>
     <Control type="ScriptSlider" id="knbDamp" value="0.0"/>

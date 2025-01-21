@@ -5,7 +5,7 @@
     <Control type="ScriptComboBox" id="cmbIR" value="17.0"/>
     <Control type="ScriptAudioWaveform" id="AudioWaveform1" value="0.0" data="{PROJECT_FOLDER}Studio Monitors.wav"
              rangeStart="0" rangeEnd="5042"/>
-    <Control type="ScriptSlider" id="knbWet" value="-9.099998474121094"/>
+    <Control type="ScriptSlider" id="knbWet" value="-10.29999828338623"/>
     <Control type="ScriptSlider" id="knbDry" value="-100.0"/>
     <Control type="ScriptSlider" id="knbPreDelay" value="0.0"/>
     <Control type="ScriptSlider" id="knbDamp" value="0.0"/>

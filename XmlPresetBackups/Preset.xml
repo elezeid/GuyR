@@ -9,13 +9,13 @@
         <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptComboBox" id="cmbIR" value="19.0"/>
-            <Control type="ScriptAudioWaveform" id="AudioWaveform1" value="0.0" data="{PROJECT_FOLDER}Bluetooth Speaker (3).wav"
-                     rangeStart="0" rangeEnd="3038"/>
-            <Control type="ScriptSlider" id="knbWet" value="-9.099998474121094"/>
-            <Control type="ScriptSlider" id="knbDry" value="-100.0"/>
+            <Control type="ScriptComboBox" id="cmbIR" value="43.0"/>
+            <Control type="ScriptAudioWaveform" id="AudioWaveform1" value="0.0" data="{PROJECT_FOLDER}Dreamcast Reverb (SFG).wav"
+                     rangeStart="0" rangeEnd="74386"/>
+            <Control type="ScriptSlider" id="knbWet" value="-25.59999847412109"/>
+            <Control type="ScriptSlider" id="knbDry" value="0.0"/>
             <Control type="ScriptSlider" id="knbPreDelay" value="0.0"/>
-            <Control type="ScriptSlider" id="knbDamp" value="0.0"/>
+            <Control type="ScriptSlider" id="knbDamp" value="-1.999998569488525"/>
           </Content>
           <UIData Source="PresetUIData"/>
         </Processor>
@@ -29,11 +29,16 @@
     </Processor>
     <Processor Type="EffectChain" ID="FX" Bypassed="0">
       <ChildProcessors>
-        <Processor Type="Convolution" ID="Convolution Reverb1" Bypassed="0" DryGain="-100.0"
-                   WetGain="-9.099998474121094" Latency="0.0" ImpulseLength="1.0"
+        <Processor Type="Convolution" ID="Convolution Reverb1" Bypassed="0" DryGain="0.0"
+                   WetGain="-25.59999847412109" Latency="0.0" ImpulseLength="1.0"
                    ProcessInput="1.0" UseBackgroundThread="0.0" Predelay="0.0" HiCut="20000.0"
-                   Damping="0.0" FFTType="5.0" FileName="{PROJECT_FOLDER}Bluetooth Speaker (3).wav"
-                   min="0" max="3038" loopStart="0" loopEnd="3038">
+                   Damping="-1.999998211860657" FFTType="5.0" FileName="{PROJECT_FOLDER}Dreamcast Reverb (SFG).wav"
+                   min="0" max="74386" loopStart="0" loopEnd="74386">
+          <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+        <Processor Type="Analyser" ID="Analyser1" Bypassed="0" BufferSize="4096.0"
+                   PreviewType="4.0">
           <ChildProcessors/>
           <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
         </Processor>
@@ -42,8 +47,8 @@
     <Processor Type="WaveSynth" ID="Waveform Generator1" Bypassed="0" Gain="0.25"
                Balance="0.0" VoiceLimit="256.0" KillFadeTime="20.0" IconColour="0"
                OctaveTranspose1="0.0" OctaveTranspose2="0.0" Detune1="0.0" Detune2="0.0"
-               WaveForm1="3.0" WaveForm2="3.0" Pan1="0.0" Pan2="0.0" Mix="0.5"
-               EnableSecondOscillator="1.0" PulseWidth1="0.5" PulseWidth2="0.5"
+               WaveForm1="5.0" WaveForm2="3.0" Pan1="0.0" Pan2="0.0" Mix="0.5"
+               EnableSecondOscillator="0.0" PulseWidth1="0.5" PulseWidth2="0.5"
                HardSync="0.0">
       <ChildProcessors>
         <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
