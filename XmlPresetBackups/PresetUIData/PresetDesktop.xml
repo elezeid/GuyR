@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="Panel1" x="0.0" y="0.0" width="600" height="600"
+             bgColour="4294967295" itemColour="4294967295" itemColour2="4294967295"/>
+  <Component type="ScriptComboBox" id="cmbIR" x="10.0" y="200.0" itemColour="4281545523"
+             bgColour="4294967295" text="Load Impulse" items="&#10;3DS Hall (SoundFontGuy)&#10;3DS Large Hall (SoundFontGuy)&#10;3DS Large Plate (SoundFontGuy)&#10;3DS Large Room (SoundFontGuy)&#10;3DS Large Spring (SoundFontGuy)&#10;3DS Plate (SoundFontGuy)&#10;3DS Room (SoundFontGuy)&#10;3DS Spring (SoundFontGuy)&#10;PSX Echo (SoundFontGuy)&#10;PSX Hall (SoundFontGuy)&#10;PSX Pipe (SoundFontGuy)&#10;PSX Room (SoundFontGuy)&#10;PSX Space (SoundFontGuy)&#10;PSX Studio 1 (SoundFontGuy)&#10;PSX Studio 2 (SoundFontGuy)&#10;PSX Studio 3 (SoundFontGuy)&#10;Studio Monitors&#10;Bluetooth Speaker (2)&#10;Bluetooth Speaker (3)&#10;Bluetooth Speaker (1)&#10;Car Backseat&#10;Car Driver&#10;Cell Phone&#10;CRT with VCR (SoundFontGuy)&#10;GBA (SoundFontGuy)&#10;Switch (SoundFontGuy)&#10;TV (SoundFontGuy)&#10;TV In Bedroom (SoundFontGuy)&#10;3DS Speaker (SoundFontGuy) (1)&#10;3DS Speaker (SoundFontGuy) (2)&#10;CRT (SoundFontGuy)&#10;DMG (SoundFontGuy)&#10;DualShock 4 (SoundFontGuy)&#10;Laptop (SoundFontGuy)&#10;Dreamcast Reverb 3 (SFG)&#10;Saturn (SFG)&#10;Saturn 2 (SFG)&#10;Saturn 3 (SFG)&#10;Dreamcast Delay 1 (SFG)&#10;Dreamcast Delay 2 (SFG)&#10;Dreamcast Delay 3 (SFG)&#10;Dreamcast ER (SFG)&#10;Dreamcast Reverb (SFG)&#10;Dreamcast Reverb 2 (SFG)"
+             max="44"/>
+  <Component type="ScriptAudioWaveform" id="AudioWaveform1" x="10.0" y="60.0"
+             processorId="Convolution Reverb1" opaque="0" loadWithLeftClick="1"
+             bgColour="4278190080" itemColour="1579032" width="580" height="140"
+             itemColour2="4294967295"/>
+  <Component type="ScriptSlider" id="knbWet" x="10.0" y="240.0" text="Wet"
+             processorId="Convolution Reverb1" parameterId="WetGain" mode="Decibel"
+             min="-100.0" max="0.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-18.0" bgColour="1476395008" itemColour="2382364672"
+             showTextBox="0" numStrips="101.0" scaleFactor="0.5" width="128.0"
+             height="48.0"/>
+  <Component type="ScriptSlider" id="knbDry" x="140.0" y="240.0" middlePosition="-18.0"
+             stepSize="0.1000000014901161" min="-100.0" max="0.0" suffix=" dB"
+             text="Dry" processorId="Convolution Reverb1" parameterId="DryGain"
+             mode="Decibel" itemColour="1711276032" bgColour="1426063360"/>
+  <Component type="ScriptSlider" id="knbPreDelay" x="270.0" y="240.0" text="Predelay"
+             processorId="Convolution Reverb1" parameterId="Predelay" mode="Time"
+             max="20000.0" stepSize="1.0" suffix=" ms" middlePosition="1000.0"/>
+  <Component type="ScriptSlider" id="knbDamp" x="400.0" y="240.0" text="Damping"
+             processorId="Convolution Reverb1" parameterId="Damping" mode="Decibel"
+             min="-100.0" max="0.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-18.0"/>
+  <Component type="ScriptImage" id="Image1" x="10.0" y="10.0" fileName="{PROJECT_FOLDER}GUYR.png"
+             width="200.0" height="50.0"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile1" x="5.0" y="300.0"
+             ContentType="PresetBrowser" bgColour="4160749567" itemColour="4278190080"
+             itemColour2="4294901760" Data="{&#10;  &quot;ShowSaveButton&quot;: true,&#10;  &quot;ShowExpansionsAsColumn&quot;: false,&#10;  &quot;ShowFolderButton&quot;: true,&#10;  &quot;ShowNotes&quot;: true,&#10;  &quot;ShowEditButtons&quot;: true,&#10;  &quot;EditButtonOffset&quot;: 10,&#10;  &quot;ShowAddButton&quot;: true,&#10;  &quot;ShowRenameButton&quot;: true,&#10;  &quot;ShowDeleteButton&quot;: true,&#10;  &quot;ShowFavoriteIcon&quot;: true,&#10;  &quot;ButtonsInsideBorder&quot;: false,&#10;  &quot;NumColumns&quot;: 3,&#10;  &quot;ColumnWidthRatio&quot;: [&#10;    0.3,&#10;    0.3,&#10;    0.4&#10;  ],&#10;  &quot;ListAreaOffset&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;ColumnRowPadding&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;SearchBarBounds&quot;: [],&#10;  &quot;MoreButtonBounds&quot;: [],&#10;  &quot;SaveButtonBounds&quot;: [],&#10;  &quot;FavoriteButtonBounds&quot;: []&#10;}"
+             width="590" height="300" textColour="4278190080" itemColour3="4278190080"
+             FontSize="12.0" Font="Unispace"/>
+</ContentProperties>
