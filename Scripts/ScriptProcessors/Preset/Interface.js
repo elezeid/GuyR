@@ -11,7 +11,7 @@ const cmbIR = Content.getComponent("cmbIR");
 
 inline function oncmbIRControl(component, value)
 {
-	if (value > o)
+	if (value > 0)
 		ConvolutionReverb1.setFile(irs[value - 1]);
 };
 
