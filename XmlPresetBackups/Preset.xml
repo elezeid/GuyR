@@ -9,10 +9,10 @@
         <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptComboBox" id="cmbIR" value="15.0"/>
-            <Control type="ScriptAudioWaveform" id="AudioWaveform1" value="0.0" data="{PROJECT_FOLDER}PS2/SFG_PS2_Room.wav"
-                     rangeStart="0" rangeEnd="106388"/>
-            <Control type="ScriptSlider" id="knbWet" value="-25.39999961853027"/>
+            <Control type="ScriptComboBox" id="cmbIR" value="55.0"/>
+            <Control type="ScriptAudioWaveform" id="AudioWaveform1" value="0.0" data="{PROJECT_FOLDER}Dreamcast/Dreamcast Reverb (SFG).wav"
+                     rangeStart="0" rangeEnd="74386"/>
+            <Control type="ScriptSlider" id="knbWet" value="-29.29999923706055"/>
             <Control type="ScriptSlider" id="knbDry" value="0.0"/>
             <Control type="ScriptSlider" id="knbPreDelay" value="0.0"/>
             <Control type="ScriptSlider" id="knbDamp" value="0.0"/>
@@ -30,10 +30,10 @@
     <Processor Type="EffectChain" ID="FX" Bypassed="0">
       <ChildProcessors>
         <Processor Type="Convolution" ID="Convolution Reverb1" Bypassed="0" DryGain="0.0"
-                   WetGain="-25.39999961853027" Latency="0.0" ImpulseLength="1.0"
+                   WetGain="-29.30000114440918" Latency="0.0" ImpulseLength="1.0"
                    ProcessInput="1.0" UseBackgroundThread="1.0" Predelay="0.0" HiCut="20000.0"
-                   Damping="0.0" FFTType="5.0" FileName="{PROJECT_FOLDER}PS2/SFG_PS2_Room.wav"
-                   min="0" max="106388" loopStart="0" loopEnd="106388">
+                   Damping="0.0" FFTType="5.0" FileName="{PROJECT_FOLDER}Dreamcast/Dreamcast Reverb (SFG).wav"
+                   min="0" max="74386" loopStart="0" loopEnd="74386">
           <ChildProcessors/>
           <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
         </Processor>
