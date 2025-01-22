@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptComboBox" id="cmbIR" value="73.0"/>
+    <Control type="ScriptAudioWaveform" id="AudioWaveform1" value="0.0" data="{PROJECT_FOLDER}Kang/DMG (by Kang).wav"
+             rangeStart="0" rangeEnd="1230"/>
+    <Control type="ScriptSlider" id="knbWet" value="-4.799998760223389"/>
+    <Control type="ScriptSlider" id="knbDry" value="-100.0"/>
+    <Control type="ScriptSlider" id="knbPreDelay" value="0.0"/>
+    <Control type="ScriptSlider" id="knbDamp" value="-100.0"/>
+  </Content>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Preset>

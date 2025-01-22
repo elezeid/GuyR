@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptComboBox" id="cmbIR" value="4.0"/>
+    <Control type="ScriptAudioWaveform" id="AudioWaveform1" value="0.0" data="{PROJECT_FOLDER}moximog/Yellow 03.wav"
+             rangeStart="0" rangeEnd="16537"/>
+    <Control type="ScriptSlider" id="knbWet" value="-16.49999809265137"/>
+    <Control type="ScriptSlider" id="knbDry" value="0.0"/>
+    <Control type="ScriptSlider" id="knbPreDelay" value="0.0"/>
+    <Control type="ScriptSlider" id="knbDamp" value="0.0"/>
+  </Content>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Preset>

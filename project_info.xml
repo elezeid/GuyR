@@ -6,7 +6,7 @@
   <Description value=""/>
   <BundleIdentifier value="com.myCompany.product"/>
   <PluginCode value="Abcd"/>
-  <EmbedAudioFiles value="Yes"/>
+  <EmbedAudioFiles value="0"/>
   <EmbedImageFiles value="Yes"/>
   <SupportFullDynamicsHLAC value="No"/>
   <AdditionalDspLibraries value=""/>
@@ -24,7 +24,7 @@
   <EnableMidiInputFX value="No"/>
   <EnableMidiOut value="No"/>
   <EnableSoundGeneratorsFX value="No"/>
-  <VST3Support value="0"/>
+  <VST3Support value="1"/>
   <UseRawFrontend value="No"/>
   <ExpansionType value="Disabled"/>
   <EncryptionKey value=""/>
