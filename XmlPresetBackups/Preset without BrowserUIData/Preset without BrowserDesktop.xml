@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="Panel1" x="1.0" y="-1.0" width="600.0"
+             height="600.0" bgColour="4294967295" itemColour="4160749567"
+             itemColour2="4160749567"/>
+  <Component type="ScriptComboBox" id="cmbIR" x="240.0" y="0.0" itemColour="4278190080"
+             bgColour="4294967295" text="Load Impulse" width="220.0" height="30.0"
+             useUndoManager="1" visible="0" items="&#10;Misc/Bluetooth Speaker (1)&#10;Misc/Bluetooth Speaker (2)&#10;Misc/Bluetooth Speaker (3)&#10;Misc/Car Backseat&#10;Misc/Car Driver&#10;Misc/Cell Phone&#10;Misc/CRT (SoundFontGuy)&#10;Misc/CRT with VCR (SoundFontGuy)&#10;Misc/DualShock 4 (SoundFontGuy)&#10;Misc/Laptop (SoundFontGuy)&#10;Misc/Studio Monitors&#10;Misc/TV (SoundFontGuy)&#10;Misc/TV In Bedroom (SoundFontGuy)&#10;REVERB/3DS Hall (SoundFontGuy)&#10;REVERB/3DS Large Hall (SoundFontGuy)&#10;REVERB/3DS Large Plate (SoundFontGuy)&#10;REVERB/3DS Large Room (SoundFontGuy)&#10;REVERB/3DS Large Spring (SoundFontGuy)&#10;REVERB/3DS Plate (SoundFontGuy)&#10;REVERB/3DS Room (SoundFontGuy)&#10;REVERB/3DS Spring (SoundFontGuy)&#10;REVERB/Dreamcast Delay 1 (SFG)&#10;REVERB/Dreamcast Delay 2 (SFG)&#10;REVERB/Dreamcast Delay 3 (SFG)&#10;REVERB/Dreamcast ER (SFG)&#10;REVERB/Dreamcast Reverb (SFG)&#10;REVERB/Dreamcast Reverb 2 (SFG)&#10;REVERB/Dreamcast Reverb 3 (SFG)&#10;REVERB/Gamecube Delay 2&#10;REVERB/Gamecube Delay&#10;REVERB/Gamecube Hall&#10;REVERB/Gamecube Huge Chamber&#10;REVERB/Gamecube Reverb&#10;REVERB/Gamecube Room 2&#10;REVERB/Gamecube Room&#10;REVERB/Gamecube Space&#10;REVERB/Gamecube Temple&#10;REVERB/Moximog Blue 06&#10;REVERB/Moximog Blue 07&#10;REVERB/Moximog Blue 08&#10;REVERB/Moximog Yellow 01&#10;REVERB/Moximog Yellow 02&#10;REVERB/Moximog Yellow 03&#10;REVERB/Moximog Yellow 04&#10;REVERB/PS2 BIOS&#10;REVERB/PS2 Delay&#10;REVERB/PS2 Hall&#10;REVERB/PS2 Large Hall&#10;REVERB/PS2 Pipe&#10;REVERB/PS2 Room&#10;REVERB/PS2 Space&#10;REVERB/PS2 Studio A&#10;REVERB/PS2 Studio B&#10;REVERB/PS2 Studio C&#10;REVERB/PSX Echo (SoundFontGuy)&#10;REVERB/PSX Hall (SoundFontGuy)&#10;REVERB/PSX Pipe (SoundFontGuy)&#10;REVERB/PSX Room (SoundFontGuy)&#10;REVERB/PSX Space (SoundFontGuy)&#10;REVERB/PSX Studio 1 (SoundFontGuy)&#10;REVERB/PSX Studio 2 (SoundFontGuy)&#10;REVERB/PSX Studio 3 (SoundFontGuy)&#10;REVERB/Saturn (SFG)&#10;REVERB/Saturn 2 (SFG)&#10;REVERB/Saturn 3 (SFG)&#10;REVERB/Wii Delay&#10;SPEAKERS/3DS Speaker (1)&#10;SPEAKERS/3DS Speaker (2)&#10;SPEAKERS/Game Boy Advance (SoundFontGuy)&#10;SPEAKERS/Game Boy Speaker&#10;SPEAKERS/KANG - Analogue Pocket Mono&#10;SPEAKERS/KANG - Analogue Pocket Stereo&#10;SPEAKERS/KANG - DMG&#10;SPEAKERS/KANG - Game Boy Advance&#10;SPEAKERS/KANG - Game Boy Color&#10;SPEAKERS/KANG - Game Boy Pocket&#10;SPEAKERS/Moximog GBA Tweaked&#10;SPEAKERS/Switch (SoundFontGuy)"
+             max="78"/>
+  <Component type="ScriptAudioWaveform" id="AudioWaveform1" x="10.0" y="60.0"
+             processorId="Convolution Reverb1" opaque="0" loadWithLeftClick="1"
+             bgColour="4278190080" itemColour="4278210146" width="580.0" height="140.0"
+             itemColour2="4278248959" itemColour3="4278190080" textColour="4294180607"
+             showLines="1"/>
+  <Component type="ScriptSlider" id="knbWet" x="30.0" y="200.0" text="Wet"
+             processorId="Convolution Reverb1" parameterId="WetGain" mode="Decibel"
+             min="-100.0" max="0.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-18.0" bgColour="1476395008" itemColour="2382364672"
+             showTextBox="0" numStrips="101.0" scaleFactor="0.75" width="84.0"
+             height="78.0" filmstripImage="{PROJECT_FOLDER}101knob.png"/>
+  <Component type="ScriptSlider" id="knbDry" x="180.0" y="200.0" middlePosition="-18.0"
+             stepSize="0.1000000014901161" min="-100.0" max="0.0" suffix=" dB"
+             text="Dry" processorId="Convolution Reverb1" parameterId="DryGain"
+             mode="Decibel" itemColour="1711276032" bgColour="1426063360"
+             filmstripImage="{PROJECT_FOLDER}101knob.png" numStrips="101.0"
+             scaleFactor="0.75" width="84.0" height="78.0" showTextBox="0"/>
+  <Component type="ScriptSlider" id="knbPreDelay" x="330.0" y="200.0" text="Predelay"
+             processorId="Convolution Reverb1" parameterId="Predelay" mode="Time"
+             max="20000.0" stepSize="1.0" suffix=" ms" middlePosition="1000.0"
+             filmstripImage="{PROJECT_FOLDER}101knob.png" scaleFactor="0.75"
+             numStrips="101.0" width="85.0" height="77.0" showTextBox="0"/>
+  <Component type="ScriptSlider" id="knbDamp" x="480.0" y="200.0" text="Damping"
+             processorId="Convolution Reverb1" parameterId="Damping" mode="Decibel"
+             min="-100.0" max="0.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-18.0" numStrips="101.0" filmstripImage="{PROJECT_FOLDER}101knob.png"
+             width="86.0" height="80.0" scaleFactor="0.75" showTextBox="0"/>
+  <Component type="ScriptImage" id="Image1" x="10.0" y="10.0" fileName="{PROJECT_FOLDER}GUYR.png"
+             width="200.0" height="50.0"/>
+  <Component type="ScriptPanel" id="pnlBlackBar" x="146.0" y="305.0" itemColour="4278190080"
+             itemColour2="4278190080" width="348.0" height="33.0" text=""/>
+  <Component type="ScriptLabel" id="lblWet" x="51.0" y="275.0" text="Wet"
+             fontName="Default" textColour="4278190080" alignment="left" width="40.0"
+             height="20.0" fontSize="15.0"/>
+  <Component type="ScriptLabel" id="lblDry" x="210.0" y="277.0" text="Dry"
+             textColour="4278190080" fontSize="15.0" fontName="Default" alignment="left"
+             width="40.0" height="20.0"/>
+  <Component type="ScriptLabel" id="lblPreDelay" x="344.0" y="275.0" text="Predelay"
+             textColour="4278190080" fontSize="15.0" fontName="Default" alignment="left"
+             width="60.0" height="20.0"/>
+  <Component type="ScriptLabel" id="lblDamp" x="498.0" y="275.0" alignment="left"
+             textColour="4278190080" text="Damp -" fontSize="15.0" width="50.0"
+             height="21.0" fontName="Default"/>
+  <Component type="ScriptImage" id="imgGuy" x="530.0" y="0.0" fileName="{PROJECT_FOLDER}just_a_little_guy_BRIGHTER.png"
+             width="67.0" height="60.0" popupMenuItems="doy&#10;"/>
+  <Component type="ScriptLabel" id="Label1" x="450.0" y="40.0" textColour="4278190080"
+             text="SoundFontGuy" fontName="Default" alignment="left"/>
+</ContentProperties>
