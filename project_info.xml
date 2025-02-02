@@ -19,7 +19,7 @@
   <AppGroupID value=""/>
   <RedirectSampleFolder value=""/>
   <AAXCategoryFX value="AAX_ePlugInCategory_Modulation"/>
-  <VST3Category value=""/>
+  <VST3Category value="Reverb"/>
   <SupportMonoFX value="No"/>
   <EnableMidiInputFX value="No"/>
   <EnableMidiOut value="No"/>
@@ -35,7 +35,7 @@
   <EmbedUserPresets value="Yes"/>
   <OverwriteOldUserPresets value="No"/>
   <EnableGlobalPreprocessor value="No"/>
-  <UseGlobalAppDataFolderWindows value="No"/>
+  <UseGlobalAppDataFolderWindows value="0"/>
   <UseGlobalAppDataFolderMacOS value="No"/>
   <DefaultUserPreset value=""/>
   <CompileWithPerfetto value="No"/>

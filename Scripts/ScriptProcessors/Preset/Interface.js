@@ -3,7 +3,7 @@ Content.makeFrontInterface(600, 600);
 
 const var ConvolutionReverb1 = Synth.getAudioSampleProcessor("Convolution Reverb1");
 
-const irs = Engine.loadAudioFilesIntoPool()
+const irs = Engine.loadAudioFilesIntoPool();
 
 //cmbIR
 const cmbIR = Content.getComponent("cmbIR");
