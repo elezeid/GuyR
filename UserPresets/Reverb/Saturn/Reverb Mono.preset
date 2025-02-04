@@ -2,13 +2,13 @@
 
 <Preset Version="1.0.0">
   <Content Processor="Interface">
-    <Control type="ScriptComboBox" id="cmbIR" value="71.0"/>
     <Control type="ScriptAudioWaveform" id="AudioWaveform1" value="0.0" data="{PROJECT_FOLDER}Saturn (SFG).wav"
              rangeStart="0" rangeEnd="128688"/>
-    <Control type="ScriptSlider" id="knbWet" value="-30.89999961853027"/>
+    <Control type="ScriptSlider" id="knbWet" value="-21.49999809265137"/>
     <Control type="ScriptSlider" id="knbDry" value="0.0"/>
     <Control type="ScriptSlider" id="knbPreDelay" value="0.0"/>
     <Control type="ScriptSlider" id="knbDamp" value="0.0"/>
+    <Control type="ScriptComboBox" id="cmbIR" value="71.0"/>
   </Content>
   <MidiAutomation/>
   <MPEData Enabled="0"/>

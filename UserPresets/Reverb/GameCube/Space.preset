@@ -2,13 +2,13 @@
 
 <Preset Version="1.0.0">
   <Content Processor="Interface">
-    <Control type="ScriptComboBox" id="cmbIR" value="36.0"/>
     <Control type="ScriptAudioWaveform" id="AudioWaveform1" value="0.0" data="{PROJECT_FOLDER}Gamecube Space.wav"
              rangeStart="0" rangeEnd="341578"/>
-    <Control type="ScriptSlider" id="knbWet" value="-32.79999923706055"/>
+    <Control type="ScriptSlider" id="knbWet" value="-20.59999847412109"/>
     <Control type="ScriptSlider" id="knbDry" value="0.0"/>
     <Control type="ScriptSlider" id="knbPreDelay" value="0.0"/>
     <Control type="ScriptSlider" id="knbDamp" value="0.0"/>
+    <Control type="ScriptComboBox" id="cmbIR" value="36.0"/>
   </Content>
   <MidiAutomation/>
   <MPEData Enabled="0"/>

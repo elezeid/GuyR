@@ -2,13 +2,13 @@
 
 <Preset Version="1.0.0">
   <Content Processor="Interface">
-    <Control type="ScriptAudioWaveform" id="AudioWaveform1" value="0.0" data="{PROJECT_FOLDER}Dreamcast Delay 3 (SFG).wav"
-             rangeStart="0" rangeEnd="111428"/>
-    <Control type="ScriptSlider" id="knbWet" value="-18.99999809265137"/>
+    <Control type="ScriptAudioWaveform" id="AudioWaveform1" value="0.0" data="{PROJECT_FOLDER}Gamecube Delay.wav"
+             rangeStart="0" rangeEnd="35241"/>
+    <Control type="ScriptSlider" id="knbWet" value="-10.19999885559082"/>
     <Control type="ScriptSlider" id="knbDry" value="0.0"/>
     <Control type="ScriptSlider" id="knbPreDelay" value="0.0"/>
     <Control type="ScriptSlider" id="knbDamp" value="0.0"/>
-    <Control type="ScriptComboBox" id="cmbIR" value="21.0"/>
+    <Control type="ScriptComboBox" id="cmbIR" value="30.0"/>
   </Content>
   <MidiAutomation/>
   <MPEData Enabled="0"/>
