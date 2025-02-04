@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptComboBox" id="cmbIR" value="70.0"/>
+    <Control type="ScriptAudioWaveform" id="AudioWaveform1" value="0.0" data="{PROJECT_FOLDER}PSX Studio 3 (SoundFontGuy).wav"
+             rangeStart="0" rangeEnd="58669"/>
+    <Control type="ScriptSlider" id="knbWet" value="-30.89999961853027"/>
+    <Control type="ScriptSlider" id="knbDry" value="0.0"/>
+    <Control type="ScriptSlider" id="knbPreDelay" value="0.0"/>
+    <Control type="ScriptSlider" id="knbDamp" value="0.0"/>
+  </Content>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Preset>
