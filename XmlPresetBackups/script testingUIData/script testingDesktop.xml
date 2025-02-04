@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="Panel1" x="1.0" y="-1.0" width="600.0"
+             height="600.0" bgColour="4294967295" itemColour="4160749567"
+             itemColour2="4160749567"/>
+  <Component type="ScriptAudioWaveform" id="AudioWaveform1" x="10.0" y="60.0"
+             processorId="Convolution Reverb1" opaque="0" loadWithLeftClick="1"
+             bgColour="4278190080" itemColour="4278210146" width="580.0" height="140.0"
+             itemColour2="4278248959" itemColour3="4278190080" textColour="4294180607"
+             showFileName="0"/>
+  <Component type="ScriptSlider" id="knbWet" x="30.0" y="200.0" text="Wet"
+             processorId="Convolution Reverb1" parameterId="WetGain" mode="Decibel"
+             min="-100.0" max="0.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-18.0" bgColour="1476395008" itemColour="2382364672"
+             showTextBox="0" numStrips="101.0" scaleFactor="0.75" width="84.0"
+             height="78.0" filmstripImage="{PROJECT_FOLDER}101knob.png"/>
+  <Component type="ScriptSlider" id="knbDry" x="180.0" y="200.0" middlePosition="-18.0"
+             stepSize="0.1000000014901161" min="-100.0" max="0.0" suffix=" dB"
+             text="Dry" processorId="Convolution Reverb1" parameterId="DryGain"
+             mode="Decibel" itemColour="1711276032" bgColour="1426063360"
+             filmstripImage="{PROJECT_FOLDER}101knob.png" numStrips="101.0"
+             scaleFactor="0.75" width="84.0" height="78.0" showTextBox="0"/>
+  <Component type="ScriptSlider" id="knbPreDelay" x="330.0" y="200.0" text="Predelay"
+             processorId="Convolution Reverb1" parameterId="Predelay" mode="Time"
+             max="20000.0" stepSize="1.0" suffix=" ms" middlePosition="1000.0"
+             filmstripImage="{PROJECT_FOLDER}101knob.png" scaleFactor="0.75"
+             numStrips="101.0" width="85.0" height="77.0" showTextBox="0"/>
+  <Component type="ScriptSlider" id="knbDamp" x="480.0" y="200.0" text="Damping"
+             processorId="Convolution Reverb1" parameterId="Damping" mode="Decibel"
+             min="-100.0" max="0.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-18.0" numStrips="101.0" filmstripImage="{PROJECT_FOLDER}101knob.png"
+             width="86.0" height="80.0" scaleFactor="0.75" showTextBox="0"/>
+  <Component type="ScriptImage" id="Image1" x="10.0" y="10.0" fileName="{PROJECT_FOLDER}GUYR.png"
+             width="200.0" height="50.0"/>
+  <Component type="ScriptPanel" id="pnlBlackBar" x="146.0" y="305.0" itemColour="4278190080"
+             itemColour2="4278190080" width="348.0" height="33.0" text=""/>
+  <Component type="ScriptFloatingTile" id="fltPresetBrowser" x="6.0" y="300.0"
+             ContentType="PresetBrowser" bgColour="16777215" itemColour="4286874756"
+             itemColour2="4294967295" Data="{&#10;  &quot;ShowSaveButton&quot;: true,&#10;  &quot;ShowExpansionsAsColumn&quot;: false,&#10;  &quot;ShowFolderButton&quot;: true,&#10;  &quot;ShowNotes&quot;: true,&#10;  &quot;ShowEditButtons&quot;: true,&#10;  &quot;EditButtonOffset&quot;: 10,&#10;  &quot;ShowAddButton&quot;: true,&#10;  &quot;ShowRenameButton&quot;: true,&#10;  &quot;ShowDeleteButton&quot;: true,&#10;  &quot;ShowFavoriteIcon&quot;: true,&#10;  &quot;ButtonsInsideBorder&quot;: false,&#10;  &quot;NumColumns&quot;: 3,&#10;  &quot;ColumnWidthRatio&quot;: [&#10;    0.3,&#10;    0.25,&#10;    0.45&#10;  ],&#10;  &quot;ListAreaOffset&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;ColumnRowPadding&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;SearchBarBounds&quot;: [],&#10;  &quot;MoreButtonBounds&quot;: [],&#10;  &quot;SaveButtonBounds&quot;: [],&#10;  &quot;FavoriteButtonBounds&quot;: []&#10;}"
+             width="590.0" height="300.0" itemColour3="4278190080" FontSize="12.0"
+             textColour="4278190080"/>
+  <Component type="ScriptLabel" id="lblWet" x="51.0" y="275.0" text="Wet"
+             fontName="Default" textColour="4278190080" alignment="left" width="40.0"
+             height="20.0" fontSize="15.0"/>
+  <Component type="ScriptLabel" id="lblDry" x="210.0" y="277.0" text="Dry"
+             textColour="4278190080" fontSize="15.0" fontName="Default" alignment="left"
+             width="40.0" height="20.0"/>
+  <Component type="ScriptLabel" id="lblPreDelay" x="344.0" y="275.0" text="Predelay"
+             textColour="4278190080" fontSize="15.0" fontName="Default" alignment="left"
+             width="60.0" height="20.0"/>
+  <Component type="ScriptLabel" id="lblDamp" x="498.0" y="275.0" alignment="left"
+             textColour="4278190080" text="Damp -" fontSize="15.0" width="50.0"
+             height="21.0" fontName="Default"/>
+  <Component type="ScriptImage" id="imgGuy" x="530.0" y="0.0" fileName="{PROJECT_FOLDER}just_a_little_guy_BRIGHTER.png"
+             width="67.0" height="60.0" popupMenuItems="doy&#10;"/>
+  <Component type="ScriptLabel" id="Label1" x="450.0" y="40.0" textColour="4278190080"
+             text="SoundFontGuy" fontName="Default" alignment="left"/>
+  <Component type="ScriptComboBox" id="cmbIR" x="370.0" y="60.0" itemColour="4278190080"
+             bgColour="4294967295" text="Load Impulse" width="220.0" height="30.0"
+             useUndoManager="1" items="&#10;3DS Hall (SoundFontGuy)&#10;3DS Large Hall (SoundFontGuy)&#10;3DS Large Plate (SoundFontGuy)&#10;3DS Large Room (SoundFontGuy)&#10;3DS Large Spring (SoundFontGuy)&#10;3DS Plate (SoundFontGuy)&#10;3DS Room (SoundFontGuy)&#10;3DS Speaker (1)&#10;3DS Speaker (2)&#10;3DS Spring (SoundFontGuy)&#10;Bluetooth Speaker (1)&#10;Bluetooth Speaker (2)&#10;Bluetooth Speaker (3)&#10;Car Backseat&#10;Car Driver&#10;Cell Phone&#10;CRT (SoundFontGuy)&#10;CRT with VCR (SoundFontGuy)&#10;Dreamcast Delay 1 (SFG)&#10;Dreamcast Delay 2 (SFG)&#10;Dreamcast Delay 3 (SFG)&#10;Dreamcast ER (SFG)&#10;Dreamcast Reverb (SFG)&#10;Dreamcast Reverb 2 (SFG)&#10;Dreamcast Reverb 3 (SFG)&#10;DualShock 4 (SoundFontGuy)&#10;Game Boy Advance (SoundFontGuy)&#10;Game Boy Speaker&#10;Gamecube Delay 2&#10;Gamecube Delay&#10;Gamecube Hall&#10;Gamecube Huge Chamber&#10;Gamecube Reverb&#10;Gamecube Room 2&#10;Gamecube Room&#10;Gamecube Space&#10;Gamecube Temple&#10;KANG - Analogue Pocket Mono&#10;KANG - Analogue Pocket Stereo&#10;KANG - DMG&#10;KANG - Game Boy Advance&#10;KANG - Game Boy Color&#10;KANG - Game Boy Pocket&#10;Laptop (SoundFontGuy)&#10;Moximog Blue 06&#10;Moximog Blue 07&#10;Moximog Blue 08&#10;Moximog GBA Tweaked&#10;Moximog Yellow 01&#10;Moximog Yellow 02&#10;Moximog Yellow 03&#10;Moximog Yellow 04&#10;PS2 BIOS&#10;PS2 Delay&#10;PS2 Hall&#10;PS2 Large Hall&#10;PS2 Pipe&#10;PS2 Room&#10;PS2 Space&#10;PS2 Studio A&#10;PS2 Studio B&#10;PS2 Studio C&#10;PSX Echo (SoundFontGuy)&#10;PSX Hall (SoundFontGuy)&#10;PSX Pipe (SoundFontGuy)&#10;PSX Room (SoundFontGuy)&#10;PSX Space (SoundFontGuy)&#10;PSX Studio 1 (SoundFontGuy)&#10;PSX Studio 2 (SoundFontGuy)&#10;PSX Studio 3 (SoundFontGuy)&#10;Saturn (SFG)&#10;Saturn 2 (SFG)&#10;Saturn 3 (SFG)&#10;Studio Monitors&#10;Switch (SoundFontGuy)&#10;TV (SoundFontGuy)&#10;TV In Bedroom (SoundFontGuy)&#10;Wii Delay"
+             max="78"/>
+  <Component type="ScriptPanel" id="pnlZoom" x="590.0" y="590.0" width="10.0"
+             height="10.0" bgColour="1442775040"/>
+</ContentProperties>

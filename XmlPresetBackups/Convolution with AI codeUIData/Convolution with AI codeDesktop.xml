@@ -60,6 +60,6 @@
              width="67.0" height="60.0" popupMenuItems="doy&#10;"/>
   <Component type="ScriptLabel" id="Label1" x="450.0" y="40.0" textColour="4278190080"
              text="SoundFontGuy" fontName="Default" alignment="left"/>
-  <Component type="ScriptPanel" id="pnlZoom" x="590.0" y="590.0" width="10"
-             height="10" bgColour="1442775040"/>
+  <Component type="ScriptPanel" id="pnlZoom" x="590.0" y="590.0" width="10.0"
+             height="10.0" bgColour="1442775040"/>
 </ContentProperties>
